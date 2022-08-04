@@ -1,0 +1,25 @@
+{
+  "name": "pair-constructor",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Roman Hnatiuk <hnatiukr@pm.me>",
+  "description": "Pair for building abstractions with data",
+  "keywords": [
+    "javascript",
+    "typescript",
+    "pairs",
+    "pair",
+    "sicp"
+  ],
+  "repository": "https://github.com/hnatiukr/pair-constructor",
+  "homepage": "https://github.com/hnatiukr/pair-constructor#readme",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/jest": "28.1.6",
+    "jest": "28.1.3",
+    "standard-version": "9.5.0",
+    "ts-jest": "28.0.7",
+    "typescript": "4.7.4"
+  }
+}
