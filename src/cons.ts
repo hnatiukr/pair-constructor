@@ -1,6 +1,6 @@
-import { CAR } from './car'
-import { CDR } from './cdr'
-import type { Car, Cdr } from './types';
+import { CAR } from "./car";
+import { CDR } from "./cdr";
+import type { Car, Cdr } from "./types";
 
 export type Pair<A, B> = {
 	init: boolean;
@@ -8,6 +8,13 @@ export type Pair<A, B> = {
 	(message: Cdr): B;
 };
 
+/**
+ * Pair constructor
+ * @example
+ * const pair = cons(5, 'hello');
+ * @example
+ * const pair = cons(cons(1, null), 'world');
+ */
 export default function cons<A, B>(a: A, b: B): Pair<A, B> {
 	const pair = (message: Car | Cdr) => {
 		switch (message) {

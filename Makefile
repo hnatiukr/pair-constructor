@@ -37,4 +37,7 @@ bump:
 release:
 	yarn publish lib --non-interactive
 
+docs:
+	yarn documentation build src/** -f md --markdown-toc-max-depth 2 --sort-order alpha --shallow > README.md
+
 .PHONY: test lint prebuild copy-dts copy-npm build-dts build-js build
