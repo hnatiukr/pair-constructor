@@ -1,3 +1,5 @@
+make LIB=lib
+
 install:
 	yarn
 
@@ -11,13 +13,15 @@ lint:
 	tsc -p tsconfig.ci.json
 
 prebuild:
-	rm -rf lib
+	rm -rf $(LIB)
 
 copy-dts:
-	mkdir lib && mkdir lib/types && find ./src/types -name '*.d.ts' -exec cp -prv '{}' 'lib/types' ';'
+	mkdir $(LIB)
+	mkdir $(LIB)/types
+	find ./src/types -name '*.d.ts' -exec cp -prv '{}' '$(LIB)/types' ';'
 
 copy-npm:
-	cp {README.md,package.json,LICENSE} lib
+	cp {README.md,package.json,LICENSE} $(LIB)
 
 build-dts:
 	tsc -p tsconfig.declaration.json
@@ -31,13 +35,11 @@ build:
 ci:
 	make lint test build
 
-bump:
-	standard-version
-
 release:
-	yarn publish lib --non-interactive
+	yarn publish $(LIB) --non-interactive
 
 docs:
-	yarn documentation build src/** -f md --markdown-toc-max-depth 2 --sort-order alpha --shallow > README.md
+	mkdir -p docs
+	npx documentation build src/** -f md --markdown-toc-max-depth 2 --sort-order alpha --shallow > docs/README.md
 
-.PHONY: test lint prebuild copy-dts copy-npm build-dts build-js build
+.PHONY: test lint prebuild copy-dts copy-npm build-dts build-js build docs
