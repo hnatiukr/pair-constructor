@@ -19,7 +19,9 @@ copy-dts:
 	find ./src/types -name '*.d.ts' -exec cp -prv '{}' 'lib/types' ';'
 
 copy-npm:
-	cp {README.md,package.json,LICENSE} lib
+	cp package.json lib
+	cp README.md lib
+	cp LICENSE lib
 
 build-dts:
 	tsc -p tsconfig.declaration.json
