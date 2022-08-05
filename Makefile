@@ -14,7 +14,9 @@ prebuild:
 	rm -rf lib
 
 copy-dts:
-	mkdir lib && mkdir lib/types && find ./src/types -name '*.d.ts' -exec cp -prv '{}' 'lib/types' ';'
+	mkdir lib
+	mkdir lib/types
+	find ./src/types -name '*.d.ts' -exec cp -prv '{}' 'lib/types' ';'
 
 copy-npm:
 	cp {README.md,package.json,LICENSE} lib
@@ -38,6 +40,7 @@ release:
 	yarn publish lib --non-interactive
 
 docs:
-	yarn documentation build src/** -f md --markdown-toc-max-depth 2 --sort-order alpha --shallow > README.md
+	mkdir -p docs
+	npx documentation build src/** -f md --markdown-toc-max-depth 2 --sort-order alpha --shallow > docs/README.md
 
-.PHONY: test lint prebuild copy-dts copy-npm build-dts build-js build
+.PHONY: test lint prebuild copy-dts copy-npm build-dts build-js build docs
