@@ -9,6 +9,7 @@ test-coverage:
 
 lint:
 	npx tsc -p tsconfig.ci.json
+	npx prettier --write ./src
 
 prebuild:
 	rm -rf lib
