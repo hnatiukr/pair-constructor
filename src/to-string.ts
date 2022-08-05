@@ -8,6 +8,11 @@ function stringify<A, B>(a: A): string;
 
 function stringify<A, B>(b: B): string;
 
+/**
+ * Convert a pair to a string
+ * @example
+ * toString(cons('', 10)); // ('', 10)
+ */
 function stringify<A, B>(pair: Pair<A, B>): string {
 	if (!isPair(pair)) {
 		return String(pair);
