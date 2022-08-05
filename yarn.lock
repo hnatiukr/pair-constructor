@@ -1713,7 +1713,7 @@ doctrine-temporary-fork@2.1.0:
   dependencies:
     esutils "^2.0.2"
 
-documentation@^13.2.5:
+documentation@13.2.5:
   version "13.2.5"
   resolved "https://registry.yarnpkg.com/documentation/-/documentation-13.2.5.tgz#2d4c8a94ce60a0342d6981d34488ad6184e463a0"
   integrity sha512-d1TrfrHXYZR63xrOzkYwwe297vkSwBoEhyyMBOi20T+7Ohe1aX1dW4nqXncQmdmE5MxluSaxxa3BW1dCvbF5AQ==
@@ -4639,7 +4639,7 @@ stack-utils@^2.0.3:
   dependencies:
     escape-string-regexp "^2.0.0"
 
-standard-version@9.5.0, standard-version@^9.0.0:
+standard-version@^9.0.0:
   version "9.5.0"
   resolved "https://registry.yarnpkg.com/standard-version/-/standard-version-9.5.0.tgz#851d6dcddf5320d5079601832aeb185dbf497949"
   integrity sha512-3zWJ/mmZQsOaO+fOlsa0+QK90pwhNd042qEcw6hKFNoLFs7peGyvPffpEBbK/DSGPbyOvli0mUIFv5A4qTjh2Q==
