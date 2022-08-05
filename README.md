@@ -1,5 +1,9 @@
 # pair-constructor
 
+[![npm version](https://badge.fury.io/js/pair-constructor.svg)](https://badge.fury.io/js/pair-constructor)
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 Pair for building abstractions with data. TypeScript supported.
 
 ## Installation
@@ -16,7 +20,7 @@ yarn add pair-constructor
 
 See documentation, API reference and examples (here)(https://github.com/hnatiukr/pair-constructor/tree/main/docs#table-of-contents).
 
-## Motivation:
+## Motivation
 
 One of the most critical topics in programming is abstraction. The larger the codebase, the more abstractions are used or created. A significant part of the developer's time is spent modelling the domain and implementing it in code, as well as in its further support and development. As a rule, this issue is not given time at all, but the quality of your code depends on the ability to model, and how easy it will be to work with it and understand and modify it.
 
