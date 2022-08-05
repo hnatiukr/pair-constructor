@@ -18,7 +18,7 @@ yarn add pair-constructor
 
 ## Usage
 
-See documentation, API reference and examples (here)(https://github.com/hnatiukr/pair-constructor/tree/main/docs#table-of-contents).
+See documentation, API reference and examples ([here](https://github.com/hnatiukr/pair-constructor/tree/main/docs#table-of-contents)).
 
 ## Motivation
 
