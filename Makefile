@@ -35,11 +35,8 @@ build:
 ci:
 	make lint test build
 
-release:
+publish:
+	make ci
 	yarn publish lib --non-interactive
 
-docs:
-	mkdir -p docs
-	npx documentation build src/** -f md --markdown-toc-max-depth 2 --sort-order alpha --shallow > docs/README.md
-
-.PHONY: test lint prebuild copy-dts copy-npm build-dts build-js build docs
+.PHONY: test lint prebuild copy-dts copy-npm build-dts build-js build
