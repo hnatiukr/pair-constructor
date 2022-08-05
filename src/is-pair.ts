@@ -1,4 +1,4 @@
-import type { Pair } from "./types";
+import type { Pair } from './types';
 
 /**
  * Check if the passed argument is a pair (`isPair`)
@@ -9,5 +9,5 @@ import type { Pair } from "./types";
  * isPair(5); // false
  */
 export default function isPair<A, B>(cons: Pair<A, B>): boolean {
-    return typeof cons === "function" && cons.init;
+  return typeof cons === 'function' && cons.init;
 }

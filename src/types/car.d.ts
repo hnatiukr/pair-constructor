@@ -1,3 +1,3 @@
-import { CAR } from '../car'
+import { CAR } from '../car';
 
 export type Car = typeof CAR;

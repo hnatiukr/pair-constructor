@@ -1,3 +1,3 @@
-import { CDR } from '../cdr'
+import { CDR } from '../cdr';
 
 export type Cdr = typeof CDR;

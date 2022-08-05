@@ -1,5 +1,5 @@
-import type { Car } from './car'
-import type { Cdr } from './cdr'
+import type { Car } from './car';
+import type { Cdr } from './cdr';
 
 export type Pair<A, B> = {
   init: boolean;
