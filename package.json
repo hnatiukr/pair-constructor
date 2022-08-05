@@ -1,6 +1,6 @@
 {
   "name": "pair-constructor",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "author": "Roman Hnatiuk <hnatiukr@pm.me>",
   "description": "Pair for building abstractions with data",
