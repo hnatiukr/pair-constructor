@@ -9,10 +9,9 @@ export type Pair<A, B> = {
 };
 
 /**
- * Pair constructor
+ * Pair constructor (`cons`)
  * @example
  * const pair = cons(5, 'hello');
- * @example
  * const pair = cons(cons(1, null), 'world');
  */
 export default function cons<A, B>(a: A, b: B): Pair<A, B> {
