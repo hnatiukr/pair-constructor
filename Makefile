@@ -8,7 +8,7 @@ test-coverage:
 	npx jest --coverage
 
 lint:
-	tsc -p tsconfig.ci.json
+	npx tsc -p tsconfig.ci.json
 
 prebuild:
 	rm -rf lib
@@ -24,10 +24,10 @@ copy-npm:
 	cp LICENSE lib
 
 build-dts:
-	tsc -p tsconfig.declaration.json
+	npx tsc -p tsconfig.declaration.json
 
 build-js:
-	tsc -p tsconfig.build.json
+	npx tsc -p tsconfig.build.json
 
 build:
 	make prebuild copy-dts copy-npm build-dts build-js
