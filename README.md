@@ -1,7 +1,7 @@
 # pair-constructor
 
 [![npm version](https://badge.fury.io/js/pair-constructor.svg)](https://badge.fury.io/js/pair-constructor)
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+[![Node.js CI](https://github.com/hnatiukr/pair-constructor/actions/workflows/node.js.yml/badge.svg)](https://github.com/hnatiukr/pair-constructor/actions/workflows/node.js.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Pair for building abstractions with data. TypeScript supported.
