@@ -2,7 +2,9 @@
 
 > The correct way to build a data structure is to follow the principle of one level of abstraction. This means that when working in one subject area on a certain slice, one should operate with objects of this slice only, avoiding objects that do not belong to it.
 
-![Abstraction Levels](./abstraction-levels.png)
+<p align="center">
+  <img with="400" height="400" src="./abstraction-levels.png" alt="Abstraction Levels" />
+</p>
 
 ### **1-st level: lower abstraction (Pairs)**
 
