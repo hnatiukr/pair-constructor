@@ -4,7 +4,7 @@
 [![Node.js CI](https://github.com/hnatiukr/pair-constructor/actions/workflows/node.js.yml/badge.svg)](https://github.com/hnatiukr/pair-constructor/actions/workflows/node.js.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-A **pair**, as a compound data constructor for constructed abstractions with data. TypeScript supported.
+A **pair**, as a compound data constructor for constructed abstractions. TypeScript supported.
 
 <p align="center">
   <img with="700" height="400" src="./pair-constructor.png" alt="Compound data: pairs" />
