@@ -1,9 +1,9 @@
 {
   "name": "pair-constructor",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "license": "MIT",
   "author": "Roman Hnatiuk <hnatiukr@pm.me>",
-  "description": "Pair for building abstractions with data",
+  "description": "A pair, as a compound data constructor for constructed abstractions with data.",
   "keywords": [
     "javascript",
     "typescript",
