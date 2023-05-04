@@ -1,8 +1,8 @@
 # pair-constructor
 
-[![npm version](https://badge.fury.io/js/pair-constructor.svg)](https://badge.fury.io/js/pair-constructor)
-[![Node.js CI](https://github.com/hnatiukr/pair-constructor/actions/workflows/node.js.yml/badge.svg)](https://github.com/hnatiukr/pair-constructor/actions/workflows/node.js.yml)
-[![License: GNU GPL 2.0](https://img.shields.io/badge/license-GNU%20GPL%202.0-9cf.svg)](https://github.com/hnatiukr/pair-constructor/blob/main/LICENSE)
+![npm version](https://img.shields.io/github/v/release/hnatiukr/pair-constructor?color=green&style=for-the-badge)
+![Node.js CI](https://img.shields.io/github/actions/workflow/status/hnatiukr/pair-constructor/node.js.yml?color=green&style=for-the-badge)
+![License: GNU GPL 3.0](https://img.shields.io/github/license/hnatiukr/pair-constructor?color=green&style=for-the-badge)
 
 A **pair**, as a compound data constructor for constructed abstractions. TypeScript supported.
 
