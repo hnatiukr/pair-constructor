@@ -41,6 +41,6 @@ ci:
 
 publish:
 	make ci
-	yarn publish lib --non-interactive
+	yarn npm publish lib --non-interactive
 
 .PHONY: test lint prebuild copy-dts copy-npm build-dts build-js build docs
